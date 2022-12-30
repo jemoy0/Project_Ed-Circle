@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(36, 187, 140, 0.02);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* color 1 - #7F56D9 */
+/* color 2 - #F9F5FF */
+/* color 3 - #D0D5DD */
+/* color 4 - #101828 */
+/* color 5 - rgba(36, 187, 140, .02) */

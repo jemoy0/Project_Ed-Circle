@@ -1,0 +1,67 @@
+.search {
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  width: 360px;
+  height: 44px;
+  margin: 0 40px;
+}
+
+header a {
+  color: #101828;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+header .highlighted {
+  display: flex;
+  width: fit-content;
+  border: 3px solid rgba(127, 86, 217, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+header .highlighted a {
+  background-color: #7f56d9;
+  color: #fff;
+  padding: 8px 15px;
+}
+
+header .general-links {
+  margin-right: 75px;
+}
+
+header .general-links a {
+  margin-right: 25px;
+}
+
+header .general-links a:last-child {
+  margin-right: 0;
+}
+
+header a.sign-in-link {
+  margin-right: 20px;
+}
+
+header,
+header .general-links,
+header nav,
+.collaborators,
+.collaborators .company-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header {
+  justify-content: space-between;
+  height: 100px;
+}
+
+.collaborators {
+}
+
+.collaborators .company-icons {
+}
+
+.collaborators .company-icons img {
+}
