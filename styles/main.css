@@ -20,8 +20,26 @@ a {
   flex-direction: column;
 }
 
-/* color 1 - #7F56D9 */
-/* color 2 - #F9F5FF */
-/* color 3 - #D0D5DD */
-/* color 4 - #101828 */
-/* color 5 - rgba(36, 187, 140, .02) */
+.collaborators {
+  display: flex;
+  justify-content: center;
+}
+
+.collaborators .company-icons img {
+  margin-left: 30px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info b {
+  color:#7F56D9;
+  font-size: 25px;
+}
+
+.info span {
+  color:#101828;
+  font-size: 20px;
+}

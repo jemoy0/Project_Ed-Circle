@@ -58,10 +58,25 @@ header {
 }
 
 .collaborators {
-}
-
-.collaborators .company-icons {
+  display: flex;
+  justify-content: center;
 }
 
 .collaborators .company-icons img {
+  margin-left: 30px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info b {
+  color:#9e77ed;
+  font-size: 25px;
+}
+
+.info span {
+  color:#667085;
+  font-size: 20px;
 }
