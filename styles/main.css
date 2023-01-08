@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -18,28 +19,4 @@ a {
   width: 1400px;
   display: flex;
   flex-direction: column;
-}
-
-.collaborators {
-  display: flex;
-  justify-content: center;
-}
-
-.collaborators .company-icons img {
-  margin-left: 30px;
-}
-
-.info {
-  display: flex;
-  flex-direction: column;
-}
-
-.info b {
-  color:#7F56D9;
-  font-size: 25px;
-}
-
-.info span {
-  color:#101828;
-  font-size: 20px;
 }

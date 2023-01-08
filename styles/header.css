@@ -57,26 +57,26 @@ header {
   height: 100px;
 }
 
-.collaborators {
-  display: flex;
-  justify-content: center;
-}
-
-.collaborators .company-icons img {
-  margin-left: 30px;
-}
-
 .info {
   display: flex;
   flex-direction: column;
 }
 
 .info b {
-  color:#9e77ed;
-  font-size: 25px;
+  color:#7F56D9;
+  font-size: 28px;
 }
 
 .info span {
-  color:#667085;
-  font-size: 20px;
+  color:#101828;
+  font-size: 23px;
+}
+
+.collaborators {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collaborators .company-icons img {
+  margin-left: 30px;
 }
