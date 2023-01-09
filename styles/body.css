@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css2?family=Seymour+One&display=swap);
 
 .title {
     margin-top: 30px;
-    width: 510px;
-    font-size: 64px;
+    width: 590px;
+    font-family: "Seymour One", sans-serif;
+    font-size: 50px;
     font-weight: 600;
     letter-spacing: -0.5px;
     line-height: 80px;
@@ -44,7 +46,6 @@
     margin-left: 20px;
     background-color: #d5f5ff;
     color: #2e9abe;
-    border: 1px solid #f1f1f1;
 }
 
 .icons {
@@ -83,7 +84,7 @@
 .collaborators {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .collaborators .company-icons img {
