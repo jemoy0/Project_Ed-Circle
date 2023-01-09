@@ -1,0 +1,91 @@
+
+.title {
+    margin-top: 30px;
+    width: 510px;
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    line-height: 80px;
+}
+
+.title b {
+    color: #39B5E0;
+}
+
+.description {
+    width: 490px;
+    color: #646464;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 30px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0px;
+}
+
+.Get-Started, 
+.Free-Trial {
+    padding: 20px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.Get-Started {
+    background-color: #39B5E0;
+    color: #ffffff;
+    border: 3px solid #d5f5ff;
+}
+
+.Free-Trial {
+    margin-left: 20px;
+    background-color: #d5f5ff;
+    color: #2e9abe;
+    border: 1px solid #f1f1f1;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icons div {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  color: #1d2939b3;
+  font-size: 16px;
+}
+
+.icons div img {
+  margin-right: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info b {
+  color:#39B5E0;
+  font-size: 28px;
+}
+
+.info span {
+  color:#101828;
+  font-size: 23px;
+}
+
+.collaborators {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.collaborators .company-icons img {
+  margin-left: 30px;
+}

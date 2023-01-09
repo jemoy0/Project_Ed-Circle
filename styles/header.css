@@ -15,13 +15,13 @@ header a {
 header .highlighted {
   display: flex;
   width: fit-content;
-  border: 3px solid rgba(127, 86, 217, 0.2);
+  border: 3px solid rgba(86, 206, 217, 0.2);
   border-radius: 8px;
   overflow: hidden;
 }
 
 header .highlighted a {
-  background-color: #7f56d9;
+  background-color: #39B5E0;
   color: #fff;
   padding: 8px 15px;
 }
@@ -55,28 +55,4 @@ header nav,
 header {
   justify-content: space-between;
   height: 100px;
-}
-
-.info {
-  display: flex;
-  flex-direction: column;
-}
-
-.info b {
-  color:#7F56D9;
-  font-size: 28px;
-}
-
-.info span {
-  color:#101828;
-  font-size: 23px;
-}
-
-.collaborators {
-  display: flex;
-  justify-content: space-between;
-}
-
-.collaborators .company-icons img {
-  margin-left: 30px;
 }
