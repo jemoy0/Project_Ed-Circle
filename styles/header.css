@@ -1,3 +1,5 @@
+/* @import url(https://fonts.googleapis.com/css2?family=Seymour+One&display=swap); */
+
 .search {
   border: 1px solid #d0d5dd;
   border-radius: 8px;
@@ -55,4 +57,96 @@ header nav,
 header {
   justify-content: space-between;
   height: 100px;
+}
+
+.header-2 .title {
+  margin-top: 30px;
+  width: 590px;
+  /* font-family: "Seymour One", sans-serif; */
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  word-spacing: -5px;
+  line-height: 80px;
+}
+
+.header-2 .title b {
+  color: #39B5E0;
+}
+
+.header-2 .description {
+  width: 490px;
+  color: #646464;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 30px;
+}
+
+.header-2 .buttons {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0px;
+}
+
+.header-2 .Get-Started, 
+.header-2 .Free-Trial {
+  padding: 20px;
+  border-radius: 7px;
+  font-size: 18px;
+  font-weight: 550;
+}
+
+.header-2 .Get-Started {
+  background-color: #39B5E0;
+  color: #ffffff;
+  border: 3px solid #d5f5ff;
+}
+
+.header-2 .Free-Trial {
+  margin-left: 20px;
+  background-color: #d5f5ff;
+  color: #2e9abe;
+}
+
+.header-2 .icons {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.header-2 .icons div {
+display: flex;
+align-items: center;
+margin-right: 30px;
+color: #1d2939b3;
+font-size: 16px;
+}
+
+.header-2 .icons div img {
+margin-right: 10px;
+}
+
+.header-2 .info {
+display: flex;
+flex-direction: column;
+}
+
+.header-2 .info b {
+color:#39B5E0;
+font-size: 28px;
+}
+
+.header-2 .info span {
+color:#101828;
+font-size: 23px;
+}
+
+.header-2 .collaborators {
+display: flex;
+justify-content: space-between;
+margin-top: 30px;
+}
+
+.header-2 .collaborators .company-icons img {
+margin-left: 30px;
 }
