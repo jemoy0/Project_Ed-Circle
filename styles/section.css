@@ -40,7 +40,7 @@ section .section-title {
     width: 336px;
     padding: 24px 24px 32px 24px;
     border-radius: 12px;
-    border: 2px solid #e2e2e2;
+    box-shadow: 0px 0px 25px 0px #ced1d7;
 }
 
 .service:not(:last-child) {
@@ -88,7 +88,7 @@ section .section-title {
     width: 336px;
     padding: 24px 24px 32px 24px;
     border-radius: 12px;
-    border: 2px solid #e2e2e2;
+    box-shadow: 0px 0px 25px 0px #ced1d7;
 }
 
 .main {
@@ -140,4 +140,66 @@ section .section-title {
 
 .year-enrolled {
     color: #667085;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    }
+
+    .service:not(:last-child),
+    .card:not(:last-child) {
+        margin: 0 0 10px 0
+    }
+      
+    .cards-title .section-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 389px;
+    margin-left: 35px;
+   }
+
+    section .section-info .category {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+
+   .cards-title .section-info .category {
+    justify-content: flex-start;
+   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    }
+
+    .service:not(:last-child),
+    .card:not(:last-child) {
+        margin: 0 0 10px 0
+    }
+      
+    .cards-title .section-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 389px;
+    margin-left: 35px;
+   }
+
+    section .section-info .category {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+
+   .cards-title .section-info .category {
+    justify-content: flex-start;
+   }
 }
