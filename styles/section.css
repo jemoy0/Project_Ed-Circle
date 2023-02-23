@@ -8,7 +8,15 @@ section .section-info {
     margin: 0  auto 40px auto;
 }
 
-section .section-info .category {
+.section-info p {
+    color: #667085;
+}
+
+section .section-info-2 {
+    margin: 0 0 40px 0;
+}
+
+section .section-info .pretitle {
     color: #6941c6;
     font-weight: 600;
     font-size: 16px;
@@ -23,11 +31,11 @@ section .section-title {
     line-height: 44px;
 }
 
-.container {
+/* .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
+} */
 
 .span-title {
     font-size: 24px;
@@ -43,7 +51,7 @@ section .section-title {
     box-shadow: 0px 0px 25px 0px #ced1d7;
 }
 
-.service:not(:last-child) {
+.service:first-child {
     margin: 0 50px 0 0;
 }
 
@@ -79,7 +87,6 @@ section .section-title {
     flex-direction: column;
     text-align: left;
     justify-content: left;
-    margin: 40px 0;
 }
 
 .card {
@@ -142,12 +149,20 @@ section .section-title {
     color: #667085;
 }
 
+.jc {
+    justify-content: space-between;
+}
+
 @media screen and (max-width: 767px) {
     .container {
     display: flex;
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
+    }
+
+    .jc {
+        justify-content: center;
     }
 
     .service:not(:last-child),
@@ -162,13 +177,13 @@ section .section-title {
     margin-left: 35px;
    }
 
-    section .section-info .category {
+    section .section-info .pretitle {
     width: 100%;
     display: flex;
     justify-content: center;
    }
 
-   .cards-title .section-info .category {
+   .cards-title .section-info .pretitle {
     justify-content: flex-start;
    }
 }
@@ -181,9 +196,25 @@ section .section-title {
     flex-wrap: wrap;
     }
 
-    .service:not(:last-child),
-    .card:not(:last-child) {
-        margin: 0 0 10px 0
+    .jc {
+        justify-content: center;
+    }
+
+    .card:first-child {
+        margin: 0 50px 0 0
+    }
+
+    .card:last-child {
+        margin:  0 0 0 50px;
+    }
+
+    .mt5 {
+        margin-top: 50px!important;
+    }
+
+    .service:last-child,
+    .card:last-child {
+        margin-top: 50px;
     }
       
     .cards-title .section-info {
@@ -193,13 +224,13 @@ section .section-title {
     margin-left: 35px;
    }
 
-    section .section-info .category {
+    section .section-info .pretitle {
     width: 100%;
     display: flex;
     justify-content: center;
    }
 
-   .cards-title .section-info .category {
+   .cards-title .section-info .pretitle {
     justify-content: flex-start;
    }
 }

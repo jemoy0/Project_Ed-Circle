@@ -8,21 +8,22 @@
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/section.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   </head>
-  <body>
+  <body class="mx-auto">
 
     <header>
       <img src="/assets/header/logo.svg" alt="logo" />
       <div class="search"></div>
       <nav>
-        <span class="general-links">
-          <a href="#">Program</a>
-          <a href="#">Enterprise</a>
-          <a href="#">Universities</a>
-        </span>
-        <a href="#" class="sign-in-link">Sign in</a>
+        <div class="general-links">
+          <a href="#" class="text-decoration-none">Program</a>
+          <a href="#" class="text-decoration-none">Enterprise</a>
+          <a href="#" class="text-decoration-none">Universities</a>
+        </div>
+        <a href="#" class="sign-in-link text-decoration-none">Sign in</a>
         <span class="highlighted">
-          <a href="#">Create free account</a>
+          <a href="#" class="text-decoration-none">Create free account</a>
         </span>
       </nav>
     </header>
@@ -37,8 +38,8 @@
             Provides you with the latest online learning system and material that help your knowledge growing.
           </div>
           <div class="buttons">
-            <a href="#" class="Get-Started">Get Started</a>
-            <a href="#" class="Free-Trial">Get Free Trial</a>
+            <a href="#" class="Get-Started text-decoration-none" >Get Started</a>
+            <a href="#" class="Free-Trial text-decoration-none">Get Free Trial</a>
             </div>
         </div>
         
@@ -84,89 +85,160 @@
 
       <section>
         <div class="section-info">
-          <div class="category">Our Services</div>
+          <div class="pretitle">Our Services</div>
           <h3 class="section-title">Fostering a playful & engaging learning environment</h3>
         </div>
         <div class="container">
-          <div class="service">
-            <span class="span-title">User Expirience</span>
-            <span class="more more-1">Lessons on design that cover the most recent developments.</span>
-            <a class="lm lm-1">Learn More ❯</a>
-          </div>
-          <div class="service">
-            <span class="span-title">Web Development</span>
-            <span class="more">Lessons on design that cover the most recent developments.</span>
-            <a class="lm">Learn More ❯</a>
-          </div>
-          <div class="service">
-            <span class="span-title">Marketing</span>
-            <span class="more">Marketing courses that cover the most recent marketing trends</span>
-            <a class="lm">Learn More ❯</a>
+          <div class="row d-flex flex-wrap jc">
+            <div class="service col-3 border border-0" style="width: 330px; height: 215px;">
+              <span class="span-title">User Expirience</span>
+              <span class="more more-1">Lessons on design that cover the most recent developments.</span>
+              <a class="lm lm-1 text-decoration-none">Learn More ❯</a>
+            </div>
+            <div class="service col-3 border border-0" style="width: 330px; height: 215px;">
+              <span class="span-title">Web Development</span>
+              <span class="more">Lessons on design that cover the most recent developments.</span>
+              <a class="lm text-decoration-none">Learn More ❯</a>
+            </div>
+            <div class="service col-3 border border-0" style="width: 330px; height: 215px;">
+              <span class="span-title">Marketing</span>
+              <span class="more">Marketing courses that cover the most recent marketing trends</span>
+              <a class="lm text-decoration-none">Learn More ❯</a>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="cards-title">
-            <div class="section-info">
-              <div class="category">Explore programs</div>
+            <div class="section-info section-info-2">
+              <div class="pretitle">Explore programs</div>
               <h3 class="section-title">Our Most Popular Class</h3>
+              <p>Let's join our famous class, the knowledge provided will definitely be useful for you.</p>
             </div>
             <div class="container">
-              <div class="card">
-                <img src="assets/section/image-1.svg" alt="1">
-                <div class="main">
-                  <span class="design">Design</span>
-                  <span class="span-title">Figma UI UX Design..</span>
-                  <span class="card-description">Use Figma to get a job in UI Design, User Interface, User Experience design.</span>
-                </div>
-                <div class="second">
-                  <div class="info">
-                    <img src="assets/section/Avatar-1.svg" alt="avatar">
-                    <div class="spans">
-                      <span class="name">Jane Cooper</span>
-                      <span class="year-enrolled">2001 Enrolled</span>
-                    </div>
+              <div class="row d-flex flex-wrap jc">
+                <div class="card col-3 border border-0 cc" style="width: 330px;">
+                  <img src="assets/section/image-1.svg" alt="1">
+                  <div class="main">
+                    <span class="design">Design</span>
+                    <span class="span-title">Figma UI UX Design..</span>
+                    <span class="card-description">Use Figma to get a job in UI Design, User Interface, User Experience design.</span>
                   </div>
-                  <span class="price">$17.84</span>
-                </div>
-              </div>
-              <div class="card">
-                <img src="assets/section/image-2.svg" alt="1">
-                <div class="main">
-                  <span class="design">Design</span>
-                  <span class="span-title">Learn With Shoaib</span>
-                  <span class="card-description">Design Web Sites and Mobile Apps that Your Users Love and Return to Again.</span>
-                </div>
-                <div class="second">
-                  <div class="info">
-                    <img src="assets/section/Avatar-2.svg" alt="avatar">
-                    <div class="spans">
-                      <span class="name">Jenny Wilson</span>
-                      <span class="year-enrolled">2001 Enrolled</span>
+                  <div class="second">
+                    <div class="info">
+                      <img src="assets/section/Avatar-1.svg" alt="avatar">
+                      <div class="spans">
+                        <span class="name">Jane Cooper</span>
+                        <span class="year-enrolled">2001 Enrolled</span>
+                      </div>
                     </div>
+                    <span class="price">$17.84</span>
                   </div>
-                  <span class="price">$8.99</span>
                 </div>
-              </div>
-              <div class="card">
-                <img src="assets/section/image-3.svg" alt="1">
-                <div class="main">
-                  <span class="design">Design</span>
-                  <span class="span-title">Building User Interface..</span>
-                  <span class="card-description">Learn how to apply User Experience (UX) principles to your website designs.</span>
-                </div>
-                <div class="second">
-                  <div class="info">
-                    <img src="assets/section/Avatar-3.svg" alt="avatar">
-                    <div class="spans">
-                      <span class="name">Esther Howard</span>
-                      <span class="year-enrolled">2001 Enrolled</span>
+                <div class="card col-3 border border-0 cc" style="width: 330px;">
+                  <img src="assets/section/image-2.svg" alt="1">
+                  <div class="main">
+                    <span class="design">Design</span>
+                    <span class="span-title">Learn With Shoaib</span>
+                    <span class="card-description">Design Web Sites and Mobile Apps that Your Users Love and Return to Again.</span>
+                  </div>
+                  <div class="second">
+                    <div class="info">
+                      <img src="assets/section/Avatar-2.svg" alt="avatar">
+                      <div class="spans">
+                        <span class="name">Jenny Wilson</span>
+                        <span class="year-enrolled">2001 Enrolled</span>
+                      </div>
                     </div>
+                    <span class="price">$8.99</span>
                   </div>
-                  <span class="price">$11.70</span>
+                </div>
+                <div class="card col-3 border border-0 cc" style="width: 330px;">
+                  <img src="assets/section/image-3.svg" alt="1">
+                  <div class="main">
+                    <span class="design">Design</span>
+                    <span class="span-title">Building User Interface..</span>
+                    <span class="card-description">Learn how to apply User Experience (UX) principles to your website designs.</span>
+                  </div>
+                  <div class="second">
+                    <div class="info">
+                      <img src="assets/section/Avatar-3.svg" alt="avatar">
+                      <div class="spans">
+                        <span class="name">Esther Howard</span>
+                        <span class="year-enrolled">2001 Enrolled</span>
+                      </div>
+                    </div>
+                    <span class="price">$11.70</span>
+                  </div>
                 </div>
               </div>
             </div>
       </section>
+      <section class="container">
+        <div class="section-info">
+          <div class="pretitle">Tutors</div>
+          <h3 class="section-title">Meet the Heroes</h3>
+          <p>Let's join our famous class, the knowledge provided will definitely be useful for you.</p>
+        </div>
+        <div class="row d-flex flex-wrap jc">
+          <div class="card text-center" style="width: 288px;">
+            <div class="d-flex justify-content-center mb-2">
+              <img src="/assets/section/Avatar-2-1.png" class="card-img-top" style="width: 80px;" alt="Avatar">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-semibold">Theresa Webb</h5>
+              <span class="card-text fs-6" style="color: #6941c6;">Application Support Analyst Lead</span>
+              <p class="card-text">Former co-founder of Opendoor. Early staff at Spotify and Clearbit.</p>
+            </div>
+            <div class="d-flex justify-content-center mb-2">
+              <img src="/assets/section/Twitter.svg" class="card-img-top me-3" style="width: 20px;" alt="Icon">
+              <img src="/assets/section/In-icon.svg" class="card-img-top" style="width: 20px;" alt="Icon">
+            </div>
+          </div>
+          <div class="card text-center" style="width: 288px;">
+            <div class="d-flex justify-content-center mb-2">
+              <img src="/assets/section/Avatar-2-2.png" class="card-img-top" style="width: 80px;" alt="Avatar">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-semibold">Courtney Henry</h5>
+              <span class="card-text fs-6" style="color: #6941c6;">Director, Undergraduate Analytics and Planning</span>
+              <p class="card-text">Lead engineering teams at Figma, Pitch, and Protocol Labs.</p>
+            </div>
+            <div class="d-flex justify-content-center mb-2">
+              <img src="/assets/section/Twitter.svg" class="card-img-top me-3" style="width: 20px;" alt="Icon">
+              <img src="/assets/section/In-icon.svg" class="card-img-top" style="width: 20px;" alt="Icon">
+            </div>
+          </div>
+          <div class="card text-center mt5" style="width: 288px;">
+            <div class="d-flex justify-content-center mb-2">
+              <img src="/assets/section/Avatar-2-3.png" class="card-img-top" style="width: 80px;" alt="Avatar">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-semibold">Albert Flores</h5>
+              <span class="card-text fs-6" style="color: #6941c6;">Career Educator</span>
+              <p class="card-text">Former PM for Linear, Lambda School, and On Deck.
+              </p>
+            </div>
+            <div class="d-flex justify-content-center mb-2">
+              <img src="/assets/section/Twitter.svg" class="card-img-top me-3" style="width: 20px;" alt="Icon">
+              <img src="/assets/section/In-icon.svg" class="card-img-top" style="width: 20px;" alt="Icon">
+            </div>
+          </div>
+          <div class="card text-center" style="width: 288px;">
+            <div class="d-flex justify-content-center mb-2">
+              <img src="/assets/section/Avatar-2-4.png" class="card-img-top" style="width: 80px;" alt="Avatar">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-semibold">Marvin McKinney</h5>
+              <span class="card-text fs-6" style="color: #6941c6;">Co-op & Internships Program & Operations Manager</span>
+              <p class="card-text">Former frontend dev for Linear, Coinbase, and Postscript.</p>
+            </div>
+            <div class="d-flex justify-content-center mb-2">
+              <img src="/assets/section/Twitter.svg" class="card-img-top me-3" style="width: 20px;" alt="Icon">
+              <img src="/assets/section/In-icon.svg" class="card-img-top" style="width: 20px;" alt="Icon">
+            </div>
+          </div>
+      </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
