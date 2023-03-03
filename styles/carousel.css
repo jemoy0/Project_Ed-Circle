@@ -1,0 +1,30 @@
+.carousel-indicators [data-bs-target] {
+    width: 12px!important;
+    height: 12px!important;
+    background-color: #D9D9D9!important;
+    border-radius: 50%!important;
+}
+
+.carousel-indicators .active {
+    background-color: #6941c6!important;
+    width: 35px!important;
+    border-radius: 10px!important;
+    border-top: 0!important;
+    border-bottom: 0!important;
+}
+
+.carousel-item {
+    float: none!important;
+}
+
+.carousel-item-prev {
+    float: left!important;
+    position: absolute!important;
+}
+
+.carousel-item-next {
+    top: 0%;
+    position: absolute!important;
+}
+
+/* Нажаль я не зміг пофіксити те, що коли переключаєшся на перший слайд, крива анімація :( */
